@@ -1,6 +1,7 @@
 .nav a {
     text-decoration: none;
-    margin-left: 100px;}
+    margin-left: 100px;
+    color: darkgrey;}
 
 nav{
     display: flex;
@@ -9,9 +10,9 @@ nav{
 
 
 header {
-    background-color: bisque;
-    height: 100px;
-    border:#cccccc ;
+    border-style: solid;
+    border-color: #ffffff;
+    border-bottom-color: #cccccc
 }
 
 .nav {
@@ -40,15 +41,16 @@ margin-top: 50px;
 }
 
     .aside h2 {
-        color: aquamarine;
+        color: cadetblue;
         margin-top: 3px;
+        text-decoration-line: underline;
     }
 
 
 footer {
     background-color: #666666;
     height: 100px;
-    
+    margin-top: 60px;
 }
 .aside {
     
@@ -56,7 +58,9 @@ footer {
     width: 300px;
 }
 .main {
-    display: flex;}
+    display: flex;
+    height: 500px;
+    background-color: floralwhite;}
 
 .aside i {
 

@@ -1,14 +1,16 @@
 .navbar a {
     text-decoration: none;
     margin-right: 100px;
+    color: darkgrey;
 }
 
 
 
 header {
-    background-color: bisque;
-    height: 100px;
-    border:#cccccc ;
+    border-style: solid;
+    border-color: #ffffff;
+    border-bottom-color: #cccccc;
+
     }
 
 .navbar {
@@ -24,7 +26,7 @@ header {
     width: 400px;
     height: 270px;
     padding: 10px;
-   
+
 }
 
 button {
@@ -33,29 +35,39 @@ button {
     border-color: aquamarine;
 }
 .cont h1 {
-    color: aquamarine;}
+    color:cadetblue;
+    text-decoration-line: underline;}
 
-
+.contact h1 {
+    color: cadetblue;
+    text-align:start;
+    border-style: solid;
+    border-color: #ffffff;
+    border-bottom-color: #cccccc;
+}
+main {
+    border-style: solid;
+    border-color: #ffffff;
+    border-bottom-color: cadetblue;
+    border-bottom-width: 10px;
+    height: 500px;
+    background-color:floralwhite
     
-footer {
-    height: 100px;
-    background-color: grey;
 }
 
+
+
 .cont{
-    width: 265px;
+    width: 800px;
     height: 50px;
     padding: 10px;
-    border: 5px solid  blanchedalmond;
     display: flex;
     flex-direction: row;}
     
 .fb{
     width: 270px;
     height: 150px;
-    padding: 10px;
-    border: 5px solid  blanchedalmond;  
-}
+    padding: 10px;}
 main {
     display: flex;
     margin-bottom: 300px;
@@ -63,15 +75,21 @@ main {
 .soyad {
     display: flex;
     flex-direction: column;
-    border: 5px solid blanchedalmond;
+    border: 5px solid #cccccc;
     margin-top: 70px;
     padding-left: 15px;
     margin-left: 50px;
+    width: 800px;
+    background-color: #ffffff;
 }
 
 .icon {
     display: flex;
     flex-direction: column;
-    margin-left: 600px;
-    margin-top: 80px;
+    margin-left: 100px;
+    margin-top: 80px;}
+
+footer{
+    background-color: #666;
+    height: 100px;
 }
