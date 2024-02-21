@@ -1,6 +1,11 @@
 .nav a {
-    text-decoration: none; }
-    
+    text-decoration: none;
+    margin-left: 100px;}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
 
 
 header {
@@ -11,7 +16,7 @@ header {
 
 .nav {
     display: flex;
-    justify-content: end;
+    flex-direction: row-reverse; 
     line-height: 80px;
     font-size: xx-large;
     padding-right: 100px;
@@ -19,24 +24,24 @@ header {
 }
 .imgg  {
     background-color: #ffffff;
-    width: 650px;
-    border: 5px solid #cccccc;
+    width: 60px;
     padding: 30px;
     margin: 25px;
+    margin-right: 500px;
 }
 
 
 .aside {
 background-color: #ffffff;
-width: 270px;
-border: 5px solid #cccccc;
-padding: 25px;
+width: 40px;
 margin-left: 800px;
-margin-bottom: 100px;
+margin-bottom: 600px;
+margin-top: 50px;
 }
 
     .aside h2 {
         color: aquamarine;
+        margin-top: 3px;
     }
 
 
@@ -46,6 +51,17 @@ footer {
     
 }
 .aside {
+    
+    margin-left: 450px;
+    width: 300px;
+}
+.main {
+    display: flex;}
+
+.aside i {
+
     display: flex;
-    flex-direction: row;
+}
+.i {
+    display: flex;
 }
