@@ -7,7 +7,7 @@ header {
     background-color: bisque;
     height: 100px;
     border:#cccccc ;
-}
+    }
 
 .navbar {
     display: flex;
@@ -15,14 +15,15 @@ header {
     line-height: 80px;
     font-size: xx-large;
     padding-right: 100px;
-
 }
+
 .form {
-    width: 600px;
+    width: 400px;
     height: 270px;
     padding: 10px;
-    border: 5px solid  blanchedalmond;
+    border: 5px solid blanchedalmond;
 }
+
 button {
     color: white;
     background-color: aquamarine;
@@ -38,3 +39,17 @@ footer {
     background-color: grey;
 }
 
+.cont{
+    width: 270px;
+    height: 50px;
+    padding: 10px;
+    border: 5px solid  blanchedalmond;
+    display: flex;
+    flex-direction: row;}
+    
+.fb{
+    width: 270px;
+    height: 150px;
+    padding: 10px;
+    border: 5px solid  blanchedalmond;  
+}
